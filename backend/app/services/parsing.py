@@ -161,7 +161,7 @@ def to_records(clauses_basic, filename: str, pages_text: List[str] | None):
 
 # ---------- Main Runner ----------
 if __name__ == "__main__":
-    pdf_path = "/home/suraj-kumar-nayak/law-man/contract.pdf"
+    pdf_path = "/Users/amitprasadsingh/Desktop/Lawman/contract.pdf"
     filename = pathlib.Path(pdf_path).name
 
     # Step 1: Docling Markdown
@@ -177,6 +177,11 @@ if __name__ == "__main__":
     records = to_records(clauses_basic, filename, pages_text)
 
     # Preview
+    # Preview
     import json
     print(json.dumps(records[:5], indent=2))
-    print("Total clauses:", len(records))
+    # Save to JSON file
+    with open("contract_parsed.json", "w", encoding="utf-8") as f:
+        json.dump(records, f, indent=2)
+
+    print(f"Saved {len(records)} clauses to contract_parsed.json")
