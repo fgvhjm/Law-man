@@ -10,3 +10,19 @@
      ```
   4. Create your own branch to commit or push.  
      - Please add a valid message and proper changes you have made or improved.
+
+## docling input and output
+  ##### input :- pdf ,scanned,images , text 
+  ##### output 
+  ###### json format
+ - "contract_id": "contract.pdf",
+  - "clause_id": "c3",
+  - "heading": "COMPENSATION",
+  - "text": "In consideration for CONSULTANT accomplishing said result...",
+  - "page": 2,
+     - "line_start": 15,
+  - "line_end": 30,
+     - "lang": "en"
+
+
+ 
