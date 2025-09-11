@@ -1,2 +1,6 @@
 .venv
 .env
+law/
+venv/
+*.pyc
+__pycache__/
