@@ -101,9 +101,10 @@ def bulk_index(client, clauses, index_name="contracts", reset=False):
 
 
 # ---------- Search ----------
-def search_clauses(client, query_text, index_name="contracts"):
+def search_clauses(client, query_text, index_name="contracts", size=25):
     """Search clauses with highlighting."""
     query = {
+        "size": size,   # <-- now size is configurable
         "query": {"match": {"text": query_text}},
         "highlight": {
             "fields": {
@@ -114,6 +115,7 @@ def search_clauses(client, query_text, index_name="contracts"):
 
     results = client.search(index=index_name, body=query)
     return results
+
 
 # ---------- Format Search Results ----------
 def format_search_results(results):
@@ -153,7 +155,7 @@ if __name__ == "__main__":
     create_index(client, index_name)
 
     # Step 3: Load JSON file
-    json_file = "/Users/amitprasadsingh/Desktop/opensearch/contract_parsed.json"
+    json_file = "/Users/amitprasadsingh/Desktop/Lawman/backend/app/services/contract_parsed.json"
     with open(json_file, "r", encoding="utf-8") as f:
         clauses = json.load(f)
 
@@ -161,12 +163,13 @@ if __name__ == "__main__":
     bulk_index(client, clauses, index_name,reset=True)
 
     # Step 6: Search
-    search_results = search_clauses(client, "insurance coverage", index_name)
+    search_results = search_clauses(client, "insurance coverage", index_name,size=10)
 
     # Step 5: Format Search Results
     formatted_results = format_search_results(search_results)
-
+    # print((formatted_results))
     # Step 7: Dump formatted results to a JSON file
+    
     output_file = "formatted_search_results.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(formatted_results,f,indent=2)

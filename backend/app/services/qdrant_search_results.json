@@ -1,0 +1,142 @@
+[
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c26",
+    "heading": "3. APPROVED AS TO INSURANCE:",
+    "text_snippet": "3. APPROVED AS TO INSURANCE:",
+    "page": 10,
+    "line_range": [
+      33,
+      33
+    ],
+    "lang": "en",
+    "score": 0.51619834,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c8",
+    "heading": "A.  Types of Insurance and Minimum Limits",
+    "text_snippet": "A.  Types of Insurance and Minimum Limits\n- 1) Workers' Compensation in the minimum statutorily required coverage amounts.  This insurance coverage shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                .\n- 2) Automobile Liability Insurance for each of CONSULTANT'S vehicles used in the performance of this Agreement, including owned, no",
+    "page": 3,
+    "line_range": [
+      47,
+      51
+    ],
+    "lang": "en",
+    "score": 0.5112943,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c9",
+    "heading": "B. Other Insurance Provisions",
+    "text_snippet": "B. Other Insurance Provisions\n- 1) If any insurance coverage required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter 'post agreement coverage') and any extensions thereof.  CONSULTANT may maintain the required post agreement covera",
+    "page": 4,
+    "line_range": [
+      1,
+      29
+    ],
+    "lang": "en",
+    "score": 0.4790459,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c7",
+    "heading": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.",
+    "text_snippet": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.\nCONSULTANT shall exonerate, indemnify, defend, and hold harmless the COMMISSION (which for the purpose of this Agreement shall include, without limitation, its officers, agents, employees and volunteers) from and against:\n- A. Any and all claims, demands, losses, damages, defense costs, or liability of any kind or nature which COMMISSION may",
+    "page": 3,
+    "line_range": [
+      1,
+      6
+    ],
+    "lang": "en",
+    "score": 0.4704718,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c23",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 10,
+    "line_range": [
+      16,
+      18
+    ],
+    "lang": "en",
+    "score": 0.44790894,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c1",
+    "heading": "Sample Contract",
+    "text_snippet": "Sample Contract",
+    "page": 1,
+    "line_range": [
+      1,
+      1
+    ],
+    "lang": "en",
+    "score": 0.44694665,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c22",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED",
+    "page": 10,
+    "line_range": [
+      16,
+      16
+    ],
+    "lang": "en",
+    "score": 0.4380946,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c20",
+    "heading": "1.  CONSULTANT",
+    "text_snippet": "1.  CONSULTANT",
+    "page": 1,
+    "line_range": [
+      1,
+      1
+    ],
+    "lang": "en",
+    "score": 0.4268745,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c15",
+    "heading": "(CONSULTANT)",
+    "text_snippet": "(CONSULTANT)\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 1,
+    "line_range": [
+      1,
+      3
+    ],
+    "lang": "en",
+    "score": 0.39613912,
+    "highlight": []
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c24",
+    "heading": "PRINTED",
+    "text_snippet": "PRINTED",
+    "page": 10,
+    "line_range": [
+      18,
+      18
+    ],
+    "lang": "en",
+    "score": 0.39363682,
+    "highlight": []
+  }
+]

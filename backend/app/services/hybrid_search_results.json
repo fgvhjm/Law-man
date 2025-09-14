@@ -1,0 +1,196 @@
+[
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c8",
+    "heading": "A.  Types of Insurance and Minimum Limits",
+    "text_snippet": "A.  Types of Insurance and Minimum Limits\n- 1) Workers' Compensation in the minimum statutorily required coverage amounts.  This insurance coverage shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                .\n- 2) Automobile Liability Insurance for each of CONSULTANT'S vehicles used in the performance of this Agreement, including owned, no",
+    "page": 3,
+    "line_range": [
+      47,
+      51
+    ],
+    "lang": "en",
+    "score": 3.262014,
+    "highlight": [
+      "Types of <em>Insurance</em> and Minimum Limits\n- 1) Workers' Compensation in the minimum statutorily required <em>coverage</em> amounts.",
+      "This <em>insurance</em> <em>coverage</em> shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                .\n- 2) Automobile",
+      "COMMISSION both certify to this fact by initialing here           /        .\n- 3) Comprehensive or Commercial General Liability <em>Insurance</em> <em>coverage</em> in"
+    ],
+    "norm_score": 1.0,
+    "bm25_score": 1.0,
+    "vec_score": 1.0,
+    "hybrid_score": 1.0
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c7",
+    "heading": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.",
+    "text_snippet": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.\nCONSULTANT shall exonerate, indemnify, defend, and hold harmless the COMMISSION (which for the purpose of this Agreement shall include, without limitation, its officers, agents, employees and volunteers) from and against:\n- A. Any and all claims, demands, losses, damages, defense costs, or liability of any kind or nature which COMMISSION may",
+    "page": 3,
+    "line_range": [
+      1,
+      6
+    ],
+    "lang": "en",
+    "score": 3.1828644,
+    "highlight": [
+      "<em>coverage</em>(s) and requirements.",
+      "Such <em>insurance</em> <em>coverage</em> shall be primary <em>coverage</em> as respects COMMISSION and any <em>insurance</em> or self-<em>insurance</em> maintained by COMMISSION shall be excess of",
+      "CONSULTANT'S <em>insurance</em> <em>coverage</em> and shall not contribute to it."
+    ],
+    "norm_score": 0.9568128991655489,
+    "bm25_score": 0.9568128991655489,
+    "vec_score": 0.5955904251151644,
+    "hybrid_score": 0.8123239095453951
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c9",
+    "heading": "B. Other Insurance Provisions",
+    "text_snippet": "B. Other Insurance Provisions\n- 1) If any insurance coverage required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter 'post agreement coverage') and any extensions thereof.  CONSULTANT may maintain the required post agreement covera",
+    "page": 4,
+    "line_range": [
+      1,
+      29
+    ],
+    "lang": "en",
+    "score": 2.6160254,
+    "highlight": [
+      "Other <em>Insurance</em> Provisions\n- 1) If any <em>insurance</em> <em>coverage</em> required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT",
+      "In the event said <em>insurance</em> <em>coverage</em> expires at any time or times during the term of this contract, the CONSULTANT agrees to provide at least thirty (30",
+      ") days prior notice to said expiration date; and a new Certificate of <em>Insurance</em> evidencing <em>insurance</em> <em>coverage</em> as provided for herein, for not less than"
+    ],
+    "norm_score": 0.6475234896183194,
+    "bm25_score": 0.6475234896183194,
+    "vec_score": 0.9009528097950635,
+    "hybrid_score": 0.7488952176890171
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c26",
+    "heading": "3. APPROVED AS TO INSURANCE:",
+    "text_snippet": "3. APPROVED AS TO INSURANCE:",
+    "page": 10,
+    "line_range": [
+      33,
+      33
+    ],
+    "lang": "en",
+    "score": 1.4293001,
+    "highlight": [
+      "APPROVED AS TO <em>INSURANCE</em>:"
+    ],
+    "norm_score": 0.0,
+    "bm25_score": 0.0,
+    "vec_score": 0.786412638958384,
+    "hybrid_score": 0.3145650555833536
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c22",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED",
+    "page": 10,
+    "line_range": [
+      16,
+      16
+    ],
+    "lang": "en",
+    "score": 0.49078536,
+    "highlight": [],
+    "norm_score": 0.2984204195594998,
+    "bm25_score": 0.0,
+    "vec_score": 0.2984204195594998,
+    "hybrid_score": 0.11936816782379994
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c1",
+    "heading": "Sample Contract",
+    "text_snippet": "Sample Contract",
+    "page": 1,
+    "line_range": [
+      1,
+      1
+    ],
+    "lang": "en",
+    "score": 0.4721443,
+    "highlight": [],
+    "norm_score": 0.19469097952417158,
+    "bm25_score": 0.0,
+    "vec_score": 0.19469097952417158,
+    "hybrid_score": 0.07787639180966864
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c23",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 10,
+    "line_range": [
+      16,
+      18
+    ],
+    "lang": "en",
+    "score": 0.46940225,
+    "highlight": [],
+    "norm_score": 0.1794326567115809,
+    "bm25_score": 0.0,
+    "vec_score": 0.1794326567115809,
+    "hybrid_score": 0.07177306268463236
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c20",
+    "heading": "1.  CONSULTANT",
+    "text_snippet": "1.  CONSULTANT",
+    "page": 1,
+    "line_range": [
+      1,
+      1
+    ],
+    "lang": "en",
+    "score": 0.45170584,
+    "highlight": [],
+    "norm_score": 0.0809597855371099,
+    "bm25_score": 0.0,
+    "vec_score": 0.0809597855371099,
+    "hybrid_score": 0.03238391421484396
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c24",
+    "heading": "PRINTED",
+    "text_snippet": "PRINTED",
+    "page": 10,
+    "line_range": [
+      18,
+      18
+    ],
+    "lang": "en",
+    "score": 0.45169926,
+    "highlight": [],
+    "norm_score": 0.08092317068176177,
+    "bm25_score": 0.0,
+    "vec_score": 0.08092317068176177,
+    "hybrid_score": 0.03236926827270471
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c25",
+    "heading": "PRINTED",
+    "text_snippet": "PRINTED\nCompany Name:  \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\nAddress:             \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\nTelephone:(         ) \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\nFax: (         )  \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\nEmail:  \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 10,
+    "line_range": [
+      18,
+      23
+    ],
+    "lang": "en",
+    "score": 0.43715668,
+    "highlight": [],
+    "norm_score": 0.0,
+    "bm25_score": 0.0,
+    "vec_score": 0.0,
+    "hybrid_score": 0.0
+  }
+]
