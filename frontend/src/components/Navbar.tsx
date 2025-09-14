@@ -1,8 +1,13 @@
+'use client'
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { NavbarProps } from "@/types";
+import { usePathname } from "next/navigation";
 
 export default function Navbar({ websiteName }: NavbarProps) {
+  const pathname = usePathname()
+
   return (
     <header className="border-b">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
@@ -10,12 +15,18 @@ export default function Navbar({ websiteName }: NavbarProps) {
           {websiteName}
         </Link>
         <div className="flex gap-3">
-          <Link href="/login">
-            <Button variant="outline">Login</Button>
-          </Link>
-          <Link href="/register">
-            <Button>Register</Button>
-          </Link>
+          {pathname === '/dashboard' ? (
+            <Button variant="outline">Logout</Button>
+          ) : (
+            <>
+              <Link href="/login">
+                <Button variant="outline">Login</Button>
+              </Link>
+              <Link href="/register">
+                <Button>Register</Button>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </header>
