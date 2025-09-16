@@ -5,21 +5,21 @@ import {
     SheetHeader,
     SheetTitle,
 } from "@/components/ui/sheet"
+import ChatBot from "./ChatBot"
 
-export interface SummaryPanelProps {
-    summary: string
+interface AiPanelProps {
     open: boolean
     onOpenChange: (open: boolean) => void
 }
 
-export default function SummaryPanel({ summary, open, onOpenChange }: SummaryPanelProps) {
+export default function AiPanel({ open, onOpenChange }: AiPanelProps) {
     return <div>
         <Sheet open={open} onOpenChange={onOpenChange}>
-            <SheetContent>
+            <SheetContent> 
                 <SheetHeader>
-                    <SheetTitle>Summary</SheetTitle>
+                    <SheetTitle>Ask your Query</SheetTitle>
                     <SheetDescription>
-                      {summary}
+                        <ChatBot />
                     </SheetDescription>
                 </SheetHeader>
             </SheetContent>

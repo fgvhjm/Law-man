@@ -2,8 +2,12 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { NavbarProps } from "@/types";
 import { usePathname } from "next/navigation";
+
+
+export interface NavbarProps {
+    websiteName: string
+}
 
 export default function Navbar({ websiteName }: NavbarProps) {
   const pathname = usePathname()

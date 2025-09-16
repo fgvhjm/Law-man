@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { HeroProps } from "@/types";
+
+export interface HeroProps {
+    heroText: string
+    description: string 
+}
 
 export default function Hero({ heroText, description }: HeroProps) {
   return (
