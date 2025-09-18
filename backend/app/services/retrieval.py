@@ -1,5 +1,7 @@
 import os
 import json
+import argparse
+from pathlib import Path
 from dotenv import load_dotenv
 from opensearchpy import OpenSearch, helpers
 
@@ -147,30 +149,57 @@ def format_search_results(results):
 
 # ---------- Example Runner ----------
 if __name__ == "__main__":
-    # Step 1: Init client
+    here = Path(__file__).resolve().parent
+    default_json = here / "contract_parsed.json"
+
+    parser = argparse.ArgumentParser(description="Index clauses and run a sample query")
+    parser.add_argument(
+        "--json",
+        dest="json_file",
+        type=str,
+        default=str(default_json),
+        help=f"Path to clauses JSON (default: {default_json})",
+    )
+    parser.add_argument(
+        "--index",
+        dest="index_name",
+        type=str,
+        default="contracts",
+        help="OpenSearch index name (default: contracts)",
+    )
+    parser.add_argument(
+        "--query",
+        dest="query_text",
+        type=str,
+        default="insurance coverage",
+        help="Sample query text (default: 'insurance coverage')",
+    )
+    parser.add_argument(
+        "--size",
+        dest="size",
+        type=int,
+        default=10,
+        help="Number of results to return (default: 10)",
+    )
+    parser.add_argument(
+        "--no-reset",
+        dest="reset",
+        action="store_false",
+        help="Do not recreate the index before indexing",
+    )
+
+    args = parser.parse_args()
+
     client = init_client()
+    create_index(client, args.index_name)
 
-    # Step 2: Ensure index exists
-    index_name = "contracts"
-    create_index(client, index_name)
-
-    # Step 3: Load JSON file
-    json_file = "/Users/amitprasadsingh/Desktop/Lawman/backend/app/services/contract_parsed.json"
-    with open(json_file, "r", encoding="utf-8") as f:
+    with open(args.json_file, "r", encoding="utf-8") as f:
         clauses = json.load(f)
 
-    # Step 4: Bulk index
-    bulk_index(client, clauses, index_name,reset=True)
+    bulk_index(client, clauses, args.index_name, reset=args.reset)
 
-    # Step 6: Search
-    search_results = search_clauses(client, "insurance coverage", index_name,size=10)
+    results = search_clauses(client, args.query_text, args.index_name, size=args.size)
+    formatted_results = format_search_results(results)
 
-    # Step 5: Format Search Results
-    formatted_results = format_search_results(search_results)
-    # print((formatted_results))
-    # Step 7: Dump formatted results to a JSON file
-    
-    output_file = "formatted_search_results.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(formatted_results,f,indent=2)
-
+    with open("formatted_search_results.json", "w", encoding="utf-8") as f:
+        json.dump(formatted_results, f, indent=2)
