@@ -1,0 +1,72 @@
+[
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c8",
+    "heading": "A.  Types of Insurance and Minimum Limits",
+    "text_snippet": "A.  Types of Insurance and Minimum Limits\n- 1) Workers' Compensation in the minimum statutorily required coverage amounts.  This insurance coverage shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                .\n- 2) Automobile Liability Insurance for each of CONSULTANT'S vehicles used in the performance of this Agreement, including owned, no",
+    "page": 3,
+    "line_range": [
+      47,
+      51
+    ],
+    "lang": "en",
+    "score": 3.262014,
+    "highlight": [
+      "Types of <em>Insurance</em> and Minimum Limits\n- 1) Workers' Compensation in the minimum statutorily required <em>coverage</em> amounts.",
+      "This <em>insurance</em> <em>coverage</em> shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                .\n- 2) Automobile",
+      "COMMISSION both certify to this fact by initialing here           /        .\n- 3) Comprehensive or Commercial General Liability <em>Insurance</em> <em>coverage</em> in"
+    ]
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c7",
+    "heading": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.",
+    "text_snippet": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.\nCONSULTANT shall exonerate, indemnify, defend, and hold harmless the COMMISSION (which for the purpose of this Agreement shall include, without limitation, its officers, agents, employees and volunteers) from and against:\n- A. Any and all claims, demands, losses, damages, defense costs, or liability of any kind or nature which COMMISSION may",
+    "page": 3,
+    "line_range": [
+      1,
+      6
+    ],
+    "lang": "en",
+    "score": 3.1828644,
+    "highlight": [
+      "<em>coverage</em>(s) and requirements.",
+      "Such <em>insurance</em> <em>coverage</em> shall be primary <em>coverage</em> as respects COMMISSION and any <em>insurance</em> or self-<em>insurance</em> maintained by COMMISSION shall be excess of",
+      "CONSULTANT'S <em>insurance</em> <em>coverage</em> and shall not contribute to it."
+    ]
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c9",
+    "heading": "B. Other Insurance Provisions",
+    "text_snippet": "B. Other Insurance Provisions\n- 1) If any insurance coverage required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter 'post agreement coverage') and any extensions thereof.  CONSULTANT may maintain the required post agreement covera",
+    "page": 4,
+    "line_range": [
+      1,
+      29
+    ],
+    "lang": "en",
+    "score": 2.6160254,
+    "highlight": [
+      "Other <em>Insurance</em> Provisions\n- 1) If any <em>insurance</em> <em>coverage</em> required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT",
+      "In the event said <em>insurance</em> <em>coverage</em> expires at any time or times during the term of this contract, the CONSULTANT agrees to provide at least thirty (30",
+      ") days prior notice to said expiration date; and a new Certificate of <em>Insurance</em> evidencing <em>insurance</em> <em>coverage</em> as provided for herein, for not less than"
+    ]
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c26",
+    "heading": "3. APPROVED AS TO INSURANCE:",
+    "text_snippet": "3. APPROVED AS TO INSURANCE:",
+    "page": 10,
+    "line_range": [
+      33,
+      33
+    ],
+    "lang": "en",
+    "score": 1.4293001,
+    "highlight": [
+      "APPROVED AS TO <em>INSURANCE</em>:"
+    ]
+  }
+]

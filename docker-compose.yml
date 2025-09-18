@@ -60,9 +60,22 @@ services:
     networks:
       - opensearch-net
 
+ 
+  qdrant:
+    image: qdrant/qdrant:v1.10.0
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+  
+
+
 volumes:
   opensearch-data1:
   opensearch-data2:
+  qdrant_data:
 
 networks:
   opensearch-net:
