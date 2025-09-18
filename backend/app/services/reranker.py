@@ -1,7 +1,11 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import json
-from hybrid_search import hybrid_search  # <-- import your function
+
+try:
+    from .hybrid_search import hybrid_search  # <-- import your function
+except ImportError:  # pragma: no cover - allow running as script
+    from hybrid_search import hybrid_search
 
 # Load the reranker model
 model_name = "BAAI/bge-reranker-base"

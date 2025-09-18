@@ -1,8 +1,13 @@
 import json
 from pathlib import Path
 import argparse
-from retrieval import init_client, create_index, bulk_index
-from vector_search import VectorStore
+
+try:
+    from .retrieval import init_client, create_index, bulk_index
+    from .vector_search import VectorStore
+except ImportError:  # pragma: no cover - allow direct script execution
+    from retrieval import init_client, create_index, bulk_index
+    from vector_search import VectorStore
 
 
 def ingest(json_file, reset=True, index_name: str = "contracts"):

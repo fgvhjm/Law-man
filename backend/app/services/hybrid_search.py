@@ -1,6 +1,11 @@
 import json
-from retrieval import init_client, search_clauses, format_search_results
-from vector_search import VectorStore
+
+try:
+    from .retrieval import init_client, search_clauses, format_search_results
+    from .vector_search import VectorStore
+except ImportError:  # pragma: no cover - allow script execution
+    from retrieval import init_client, search_clauses, format_search_results
+    from vector_search import VectorStore
 
 
 def normalize_scores(results):
