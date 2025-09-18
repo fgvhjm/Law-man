@@ -1,0 +1,1347 @@
+[
+  {
+    "id": "Contract:fe3a97bfda50",
+    "type": "Contract",
+    "contract_id": "contract.pdf"
+  },
+  {
+    "id": "Clause:d3937758d233",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c1",
+    "heading": "Sample Contract",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 1
+  },
+  {
+    "id": "Clause:3c2dbaf7ea05",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c2",
+    "heading": "Contract No.\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_ PROFESSIONAL SERVICES AGREEMENT",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 2
+  },
+  {
+    "id": "Party:d74b0be82fab",
+    "type": "Party",
+    "name": "AGREEMENT"
+  },
+  {
+    "id": "Party:0e898255580e",
+    "type": "Party",
+    "name": "COMMISSION"
+  },
+  {
+    "id": "Party:fc81f8987039",
+    "type": "Party",
+    "name": "CONSULTANT"
+  },
+  {
+    "id": "Party:6bce1082ddca",
+    "type": "Party",
+    "name": "COUNTY"
+  },
+  {
+    "id": "Party:bdf1b3ba33e2",
+    "type": "Party",
+    "name": "CRUZ"
+  },
+  {
+    "id": "Party:47be01797b47",
+    "type": "Party",
+    "name": "PROFESSIONAL"
+  },
+  {
+    "id": "Party:33c83dc2c3be",
+    "type": "Party",
+    "name": "REGIONAL"
+  },
+  {
+    "id": "Party:38b9f59f097a",
+    "type": "Party",
+    "name": "SANTA"
+  },
+  {
+    "id": "Party:242cb2ecea50",
+    "type": "Party",
+    "name": "SERVICES"
+  },
+  {
+    "id": "Party:7a7e94b18afb",
+    "type": "Party",
+    "name": "THIS"
+  },
+  {
+    "id": "Party:49dd300a1549",
+    "type": "Party",
+    "name": "TRANSPORTATION"
+  },
+  {
+    "id": "Amount:1ade1bb4675a",
+    "type": "Amount",
+    "value": 20.0,
+    "currency": null,
+    "unit": null,
+    "raw": "20"
+  },
+  {
+    "id": "Clause:704797b75ec5",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c3",
+    "heading": "1. DUTIES.",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 7
+  },
+  {
+    "id": "Party:dc85412d209e",
+    "type": "Party",
+    "name": "DUTIES"
+  },
+  {
+    "id": "Obligation:2a80eb555855",
+    "type": "Obligation",
+    "text": "CONSULTANT agrees to exercise special skill to accomplish the following results in a manner reasonably satisfactory to COMMISSION: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_, as specified in Exhibit A: Scope of Services, which by this reference is incorporated herein."
+  },
+  {
+    "id": "Obligation:991aab595c8d",
+    "type": "Obligation",
+    "text": "CONSULTANT shall provide the personnel listed below to perform the above-specified services, which persons are hereby designated as key personnel under this Agreement."
+  },
+  {
+    "id": "Obligation:34f9b6bfd774",
+    "type": "Obligation",
+    "text": "No person named in paragraph B of this Section, or his or her successor, shall be removed or replaced by CONSULTANT, nor shall his or her agreed-upon function hereunder be changed, without the prior written consent of COMMISSION."
+  },
+  {
+    "id": "Obligation:b2470ec3201c",
+    "type": "Obligation",
+    "text": "Such consent shall not be unreasonably withheld."
+  },
+  {
+    "id": "Amount:bafe612f33c9",
+    "type": "Amount",
+    "value": 1.0,
+    "currency": null,
+    "unit": null,
+    "raw": "1"
+  },
+  {
+    "id": "Reference:cd468633103f",
+    "type": "Reference",
+    "text": "Exhibit A"
+  },
+  {
+    "id": "Clause:ef443ae0e109",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c4",
+    "heading": "D. CONSULTANT'S PROGRESS REPORTS AND/OR MEETINGS",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 3
+  },
+  {
+    "id": "Party:850f84b8753e",
+    "type": "Party",
+    "name": "MEETINGS"
+  },
+  {
+    "id": "Party:833999b9d3ea",
+    "type": "Party",
+    "name": "PROGRESS"
+  },
+  {
+    "id": "Party:b7ffb00bea4d",
+    "type": "Party",
+    "name": "REPORTS"
+  },
+  {
+    "id": "Obligation:12e62f740a50",
+    "type": "Obligation",
+    "text": "- 1) The CONSULTANT shall submit written progress reports with each invoice."
+  },
+  {
+    "id": "Obligation:b1c15062cbe3",
+    "type": "Obligation",
+    "text": "- 2) The CONSULTANT's Project Manager shall meet with the COMMISSION's Contract Manager, as needed, to discuss progress on the contract."
+  },
+  {
+    "id": "Amount:a7b5b5d03431",
+    "type": "Amount",
+    "value": 2.0,
+    "currency": null,
+    "unit": null,
+    "raw": "2"
+  },
+  {
+    "id": "Clause:ef910889fe5a",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c5",
+    "heading": "2. COMPENSATION",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 23
+  },
+  {
+    "id": "Party:3b72478dcffa",
+    "type": "Party",
+    "name": "COMPENSATION"
+  },
+  {
+    "id": "Party:8476575f672b",
+    "type": "Party",
+    "name": "DATE"
+  },
+  {
+    "id": "Party:12a984a8e036",
+    "type": "Party",
+    "name": "SCCRTC"
+  },
+  {
+    "id": "Party:bf21de2d3938",
+    "type": "Party",
+    "name": "TERM"
+  },
+  {
+    "id": "Obligation:09bea4ef93a5",
+    "type": "Obligation",
+    "text": "In consideration for CONSULTANT accomplishing said result, COMMISSION agrees to pay CONSULTANT as follows:"
+  },
+  {
+    "id": "Obligation:e50f5b9b6f74",
+    "type": "Obligation",
+    "text": "In no event, will the CONSULTANT be reimbursed for overhead costs at a rate that exceeds the overhead rate set forth in the Fee Schedule."
+  },
+  {
+    "id": "Obligation:60c7dc394180",
+    "type": "Obligation",
+    "text": "Transportation and subsistence costs shall not exceed the rates authorized to employees under current U.S."
+  },
+  {
+    "id": "Obligation:f82fb7058ad3",
+    "type": "Obligation",
+    "text": "Reimbursable expenses will be billed by CONSULTANT and processed for payment upon approval of the Contract Manager."
+  },
+  {
+    "id": "Obligation:1440eb6355c1",
+    "type": "Obligation",
+    "text": "Progress payments will be made no less than monthly in arrears based on satisfactory services provided and actual allowable incurred costs."
+  },
+  {
+    "id": "Obligation:f92794d5ebfe",
+    "type": "Obligation",
+    "text": "A pro rata portion of the CONSULTANT's fixed fee, if applicable, will be included in the monthly progress payments."
+  },
+  {
+    "id": "Obligation:a9a32fd0a5cd",
+    "type": "Obligation",
+    "text": "No payment will be made prior to approval of any work, nor for any work performed prior to approval of this Agreement."
+  },
+  {
+    "id": "Obligation:bcb8854dded0",
+    "type": "Obligation",
+    "text": "CONSULTANT shall not exceed milestone cost estimates as shown in Exhibit B, except with the prior written approval of the Contract Manager."
+  },
+  {
+    "id": "Obligation:7abb9749342e",
+    "type": "Obligation",
+    "text": "The CONSULTANT will be reimbursed after receipt by the COMMISSION's Contract Manager of itemized invoices."
+  },
+  {
+    "id": "Obligation:7f4a0ef1389d",
+    "type": "Obligation",
+    "text": "Invoices shall be submitted no later than 45calendar days after the performance of work for which the CONSULTANT is billing."
+  },
+  {
+    "id": "Obligation:e7a837faf4ed",
+    "type": "Obligation",
+    "text": "Invoices shall be mailed to the COMMISSION's Contract Manager at the following address:"
+  },
+  {
+    "id": "Obligation:173d10a3c283",
+    "type": "Obligation",
+    "text": "The invoices must include the following information:"
+  },
+  {
+    "id": "Amount:4e34dc2ab34a",
+    "type": "Amount",
+    "value": 4.0,
+    "currency": null,
+    "unit": null,
+    "raw": "4"
+  },
+  {
+    "id": "Amount:202b2e454828",
+    "type": "Amount",
+    "value": 1523.0,
+    "currency": null,
+    "unit": null,
+    "raw": "1523"
+  },
+  {
+    "id": "Amount:762a8d09bc1c",
+    "type": "Amount",
+    "value": 95060.0,
+    "currency": null,
+    "unit": null,
+    "raw": "95060"
+  },
+  {
+    "id": "Amount:aabbfb92ddea",
+    "type": "Amount",
+    "value": 3.0,
+    "currency": null,
+    "unit": null,
+    "raw": "3"
+  },
+  {
+    "id": "Amount:a29e4fe0ce68",
+    "type": "Amount",
+    "value": 5.0,
+    "currency": null,
+    "unit": null,
+    "raw": "5"
+  },
+  {
+    "id": "Amount:d0f2bb384bdc",
+    "type": "Amount",
+    "value": 6.0,
+    "currency": null,
+    "unit": null,
+    "raw": "6"
+  },
+  {
+    "id": "Amount:71c0ab0c59bd",
+    "type": "Amount",
+    "value": 7.0,
+    "currency": null,
+    "unit": null,
+    "raw": "7"
+  },
+  {
+    "id": "Amount:7d849f4578e0",
+    "type": "Amount",
+    "value": 60.0,
+    "currency": null,
+    "unit": null,
+    "raw": "60"
+  },
+  {
+    "id": "Reference:a386da3fa4a5",
+    "type": "Reference",
+    "text": "Section 4"
+  },
+  {
+    "id": "Reference:6826fc2896ac",
+    "type": "Reference",
+    "text": "Exhibit B"
+  },
+  {
+    "id": "Clause:600e5812a0e4",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c6",
+    "heading": "4. EARLY TERMINATION",
+    "page": 2,
+    "line_start": 1,
+    "line_end": 6
+  },
+  {
+    "id": "Party:0c1bb2a01ec8",
+    "type": "Party",
+    "name": "EARLY"
+  },
+  {
+    "id": "Party:d745fb13c0be",
+    "type": "Party",
+    "name": "TERMINATION"
+  },
+  {
+    "id": "Obligation:cc362ac24c10",
+    "type": "Obligation",
+    "text": "Within thirty days of the COMMISSION's receipt of CONSULTANT's final billing, COMMISSION shall pay CONSULTANT its allowable costs incurred to date of termination and those allowable costs determined by COMMISSION to be reasonably necessary to effect such termination."
+  },
+  {
+    "id": "Obligation:e97757eaeaf0",
+    "type": "Obligation",
+    "text": "Thereafter, CONSULTANT shall have no further claims against COMMISSION under this Agreement."
+  },
+  {
+    "id": "Obligation:185d7243caec",
+    "type": "Obligation",
+    "text": "CONSULTANT shall be liable for any and all reasonable costs incurred by COMMISSION as a result of such default, including but not limited to reprocurement costs of the same or similar services defaulted by CONSULTANT under this Agreement."
+  },
+  {
+    "id": "Obligation:9c7b825e483d",
+    "type": "Obligation",
+    "text": "CONSULTANT shall be liable for any and all reasonable costs incurred by COMMISSION as a result of such default, including but not limited to reprocurement costs of the same or similar services defaulted or not provided by CONSULTANT under this Agreement."
+  },
+  {
+    "id": "Amount:f5017ac92c47",
+    "type": "Amount",
+    "value": 30.0,
+    "currency": null,
+    "unit": null,
+    "raw": "30"
+  },
+  {
+    "id": "Amount:ce7016fa5dc4",
+    "type": "Amount",
+    "value": 10.0,
+    "currency": null,
+    "unit": null,
+    "raw": "10"
+  },
+  {
+    "id": "Amount:4b8fc3660970",
+    "type": "Amount",
+    "value": 120.0,
+    "currency": null,
+    "unit": null,
+    "raw": "120"
+  },
+  {
+    "id": "Clause:06e32b2aa881",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c7",
+    "heading": "5. INDEMNIFICATION FOR DAMAGES, TAXES AND CONTRIBUTIONS.",
+    "page": 3,
+    "line_start": 1,
+    "line_end": 6
+  },
+  {
+    "id": "Party:dcbacaf0895e",
+    "type": "Party",
+    "name": "CONTRIBUTIONS"
+  },
+  {
+    "id": "Party:c36ca91b93ba",
+    "type": "Party",
+    "name": "DAMAGES"
+  },
+  {
+    "id": "Party:6445b1751845",
+    "type": "Party",
+    "name": "INDEMNIFICATION"
+  },
+  {
+    "id": "Party:64fcae6b6b93",
+    "type": "Party",
+    "name": "INSURANCE"
+  },
+  {
+    "id": "Party:d77e44da4e3c",
+    "type": "Party",
+    "name": "TAXES"
+  },
+  {
+    "id": "Obligation:88018fa2ec2a",
+    "type": "Obligation",
+    "text": "CONSULTANT shall exonerate, indemnify, defend, and hold harmless the COMMISSION (which for the purpose of this Agreement shall include, without limitation, its officers, agents, employees and volunteers) from and against:"
+  },
+  {
+    "id": "Obligation:cf30f950c8ba",
+    "type": "Obligation",
+    "text": "CONSULTANT, at its sole cost and expense, for the full term of this Agreement, and any extensions thereof, shall obtain and maintain at minimum compliance with all of the following insurance coverage(s) and requirements."
+  },
+  {
+    "id": "Obligation:a8a945bba895",
+    "type": "Obligation",
+    "text": "Such insurance coverage shall be primary coverage as respects COMMISSION and any insurance or self-insurance maintained by COMMISSION shall be excess of CONSULTANT'S insurance coverage and shall not contribute to it."
+  },
+  {
+    "id": "Obligation:528f996cd224",
+    "type": "Obligation",
+    "text": "If CONSULTANT  utilizes one or more subconsultants in the performance of this Agreement, CONSULTANT shall obtain and maintain Independent CONSULTANT's Insurance as to each subconsultant or otherwise provide evidence of insurance coverage from each subconsultant equivalent to that required of CONSULTANT in this Agreement."
+  },
+  {
+    "id": "Clause:fe2c9209cb31",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c8",
+    "heading": "A.  Types of Insurance and Minimum Limits",
+    "page": 3,
+    "line_start": 47,
+    "line_end": 51
+  },
+  {
+    "id": "Obligation:335f9de2e9f0",
+    "type": "Obligation",
+    "text": "This insurance coverage shall not be required if the CONSULTANT has no employees and certifies to this fact by initialing here                ."
+  },
+  {
+    "id": "Obligation:4adf43989fff",
+    "type": "Obligation",
+    "text": "This insurance coverage shall not be required if vehicle use by the CONSULTANT is not a material part of performance of this Agreement and CONSULTANT and COMMISSION both certify to this fact by initialing here           /        ."
+  },
+  {
+    "id": "Amount:bd1ef5fc600a",
+    "type": "Amount",
+    "value": 1000000.0,
+    "currency": "$",
+    "unit": null,
+    "raw": "$1,000,000"
+  },
+  {
+    "id": "Clause:10b3c2c03382",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c9",
+    "heading": "B. Other Insurance Provisions",
+    "page": 4,
+    "line_start": 1,
+    "line_end": 29
+  },
+  {
+    "id": "Party:898820ab737b",
+    "type": "Party",
+    "name": "AUDIT"
+  },
+  {
+    "id": "Party:e2349f88bccb",
+    "type": "Party",
+    "name": "Commission"
+  },
+  {
+    "id": "Party:0132c03b7245",
+    "type": "Party",
+    "name": "EMPLOYMENT"
+  },
+  {
+    "id": "Party:adec5fe1c766",
+    "type": "Party",
+    "name": "EQUAL"
+  },
+  {
+    "id": "Party:a5a5da4e4184",
+    "type": "Party",
+    "name": "FACTORS"
+  },
+  {
+    "id": "Party:f212302bfba8",
+    "type": "Party",
+    "name": "FEDERAL"
+  },
+  {
+    "id": "Party:9d4ab9053b3b",
+    "type": "Party",
+    "name": "HARASSMENT"
+  },
+  {
+    "id": "Party:072cdee56888",
+    "type": "Party",
+    "name": "INDEPENDENT"
+  },
+  {
+    "id": "Party:743f3e2012a5",
+    "type": "Party",
+    "name": "LAWS"
+  },
+  {
+    "id": "Party:5968142ef770",
+    "type": "Party",
+    "name": "LICENSES"
+  },
+  {
+    "id": "Obligation:705115f9b66a",
+    "type": "Obligation",
+    "text": "- 1) If any insurance coverage required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter 'post agreement coverage') and any extensions thereof."
+  },
+  {
+    "id": "Obligation:33d3c4181576",
+    "type": "Obligation",
+    "text": "For purposes of interpreting this requirement, a cost not exceeding 100% of the last annual policy premium during the term of this Agreement in order to purchase prior acts or tail coverage for post agreement coverage shall be deemed to be reasonable."
+  },
+  {
+    "id": "Obligation:56988210b432",
+    "type": "Obligation",
+    "text": "The COMMISSION will not be responsible for any premiums or assessments on the policy."
+  },
+  {
+    "id": "Obligation:b1fdc2a42d14",
+    "type": "Obligation",
+    "text": "- 2) All required Automobile and Comprehensive or Commercial General Liability Insurance shall be endorsed to contain the following clause:"
+  },
+  {
+    "id": "Obligation:aa2dbe68ab45",
+    "type": "Obligation",
+    "text": "- 3) All required insurance policies shall be endorsed to contain the following clause: 'This insurance shall not be canceled until after thirty (30) days prior written notice has been given to:"
+  },
+  {
+    "id": "Obligation:ce0cb0e6500d",
+    "type": "Obligation",
+    "text": "- 4) CONSULTANT agrees to provide its insurance broker(s) with a full copy of these insurance provisions and provide COMMISSION on or before the effective date of this Agreement with Certificates of Insurance for all required coverages."
+  },
+  {
+    "id": "Obligation:94b43507a543",
+    "type": "Obligation",
+    "text": "All Certificates of Insurance shall be delivered or sent to:"
+  },
+  {
+    "id": "Obligation:ddb6ad298510",
+    "type": "Obligation",
+    "text": "- 5) The CONSULTANT agrees that the insurance herein provided for, shall be in effect at all times during the term of this contract."
+  },
+  {
+    "id": "Obligation:c63c5a609ed1",
+    "type": "Obligation",
+    "text": "In the event said insurance coverage expires at any time or times during the term of this contract, the CONSULTANT agrees to provide at least thirty (30) days prior notice to said expiration date; and a new Certificate of Insurance evidencing insurance coverage as provided for herein, for not less than either the remainder of the term of the contract, or for a period of not less than one (1) year."
+  },
+  {
+    "id": "Obligation:fb554cafe6b4",
+    "type": "Obligation",
+    "text": "- 6) If any insurance policy of CONSULTANT required by this document includes language conditioning the insurer's legal obligation to defend or indemnify COMMISSION on the performance of any act(s) by the named insured, then said insurance policy, by endorsement, shall also name the COMMISSION as a named insured."
+  },
+  {
+    "id": "Obligation:70817565317a",
+    "type": "Obligation",
+    "text": "- 7) CONSULTANT shall do all things required to be performed by it pursuant to its insurance policies including but not limited to paying within five (5) work days, all deductibles and self-insured retentions (SIR) required to be paid under any insurance policy that may provide defense or indemnity coverage to COMMISSION or any additional insured."
+  },
+  {
+    "id": "Obligation:05c3f6f5f31d",
+    "type": "Obligation",
+    "text": "- 8) CONSULTANT shall cause the foregoing provisions to be inserted in all subcontracts for any work covered under this Agreement by a subconsultant compensated more than $50,000 and employing more than fifteen (15) employees, provided that the foregoing provisions shall not apply to contracts or subcontracts for standard commercial supplies or raw materials."
+  },
+  {
+    "id": "Amount:3d7856197c6a",
+    "type": "Amount",
+    "value": 100.0,
+    "currency": null,
+    "unit": null,
+    "raw": "100"
+  },
+  {
+    "id": "Amount:d408d79568f1",
+    "type": "Amount",
+    "value": 8.0,
+    "currency": null,
+    "unit": null,
+    "raw": "8"
+  },
+  {
+    "id": "Amount:0cc0b62b1457",
+    "type": "Amount",
+    "value": 50000.0,
+    "currency": "$",
+    "unit": null,
+    "raw": "$50,000"
+  },
+  {
+    "id": "Amount:3b2e2f050c66",
+    "type": "Amount",
+    "value": 15.0,
+    "currency": null,
+    "unit": null,
+    "raw": "15"
+  },
+  {
+    "id": "Amount:c714ee32e7e5",
+    "type": "Amount",
+    "value": 18.0,
+    "currency": null,
+    "unit": null,
+    "raw": "18"
+  },
+  {
+    "id": "Amount:3705b4b547a6",
+    "type": "Amount",
+    "value": 12990.0,
+    "currency": null,
+    "unit": null,
+    "raw": "12990"
+  },
+  {
+    "id": "Amount:ee3dee280bf3",
+    "type": "Amount",
+    "value": 8103.0,
+    "currency": null,
+    "unit": null,
+    "raw": "8103"
+  },
+  {
+    "id": "Amount:95320c1d239e",
+    "type": "Amount",
+    "value": 9.0,
+    "currency": null,
+    "unit": null,
+    "raw": "9"
+  },
+  {
+    "id": "Amount:5865cc1b5044",
+    "type": "Amount",
+    "value": 11.0,
+    "currency": null,
+    "unit": null,
+    "raw": "11"
+  },
+  {
+    "id": "Reference:f8fb33259e52",
+    "type": "Reference",
+    "text": "Section 12990"
+  },
+  {
+    "id": "Reference:e6b52dcab141",
+    "type": "Reference",
+    "text": "Section 8103"
+  },
+  {
+    "id": "Reference:861b2d1d06aa",
+    "type": "Reference",
+    "text": "Section 2500"
+  },
+  {
+    "id": "Clause:01b6fb87bb4e",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c10",
+    "heading": "13. INSPECTION OF WORK",
+    "page": 7,
+    "line_start": 1,
+    "line_end": 8
+  },
+  {
+    "id": "Party:05781f397690",
+    "type": "Party",
+    "name": "ACKNOWLEDGMENT"
+  },
+  {
+    "id": "Party:4ade51d71468",
+    "type": "Party",
+    "name": "FHWA"
+  },
+  {
+    "id": "Party:1a6f2c229b4c",
+    "type": "Party",
+    "name": "INSPECTION"
+  },
+  {
+    "id": "Party:83758e0b2296",
+    "type": "Party",
+    "name": "PRODUCTS"
+  },
+  {
+    "id": "Party:583898360b1b",
+    "type": "Party",
+    "name": "WORK"
+  },
+  {
+    "id": "Obligation:3ebdee437dd3",
+    "type": "Obligation",
+    "text": "The CONSULTANT and any subconsultant shall permit the COMMISSION, the state, and the FHWA if federal participating funds are used in this contract, to review and inspect the project activities and files at all reasonable times during the term of this Agreement including review and inspection on a daily basis."
+  },
+  {
+    "id": "Obligation:6a0a6bfe5f62",
+    "type": "Obligation",
+    "text": "CONSULTANT shall acknowledge in all reports and literature that the material is prepared for and on behalf of the COMMISSION."
+  },
+  {
+    "id": "Obligation:e5233033dae2",
+    "type": "Obligation",
+    "text": "CONSULTANT shall include in any subcontract with a third party for work under this Agreement terms that preserve the rights, interests, and obligations created by this Section, and that identify the COMMISSION as a third-party beneficiary of those provisions."
+  },
+  {
+    "id": "Obligation:a8a9cddac1ff",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall not utilize the work produced under this Agreement for any profit-making venture, or sell or grant rights to a third party for that purpose."
+  },
+  {
+    "id": "Obligation:1a606004407a",
+    "type": "Obligation",
+    "text": "Upon completion of all work under this contract, ownership and title to all custom letters, reports, documents, plans, specifications, and estimates and other products produced as part of this Agreement (herein \"deliverables\") will automatically be vested in the COMMISSION; and no further agreement will be necessary to transfer ownership to the COMMISSION."
+  },
+  {
+    "id": "Obligation:ef21eae8ed77",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall furnish the COMMISSION all necessary copies of data needed to complete the review and approval process."
+  },
+  {
+    "id": "Obligation:93d6a7ab7b99",
+    "type": "Obligation",
+    "text": "Copies may be made for CONSULTANT's records but shall not be furnished to others without the COMMISSION's prior written authorization."
+  },
+  {
+    "id": "Obligation:97ed4bdaeef4",
+    "type": "Obligation",
+    "text": "Such deliverables shall be deemed works made for hire and all rights in copyright therein shall be retained by COMMISSION."
+  },
+  {
+    "id": "Obligation:a863a1514821",
+    "type": "Obligation",
+    "text": "Any subcontract in excess of $25,000 entered into as a result of this contract, shall contain all of the provisions of this Section."
+  },
+  {
+    "id": "Amount:343bc3d6c6ca",
+    "type": "Amount",
+    "value": 13.0,
+    "currency": null,
+    "unit": null,
+    "raw": "13"
+  },
+  {
+    "id": "Amount:c4fa3a332aac",
+    "type": "Amount",
+    "value": 14.0,
+    "currency": null,
+    "unit": null,
+    "raw": "14"
+  },
+  {
+    "id": "Amount:456e9ed19dea",
+    "type": "Amount",
+    "value": 25000.0,
+    "currency": "$",
+    "unit": null,
+    "raw": "$25,000"
+  },
+  {
+    "id": "Clause:056e25d02114",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c11",
+    "heading": "16. SAFETY",
+    "page": 8,
+    "line_start": 1,
+    "line_end": 4
+  },
+  {
+    "id": "Party:0bf5ccae8596",
+    "type": "Party",
+    "name": "OSHA"
+  },
+  {
+    "id": "Party:1be0af313b43",
+    "type": "Party",
+    "name": "SAFETY"
+  },
+  {
+    "id": "Obligation:8a75c9a83a1b",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall comply with OSHA regulations applicable to CONSULTANT regarding necessary safety equipment or procedures."
+  },
+  {
+    "id": "Obligation:25f23f20accd",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall comply with safety instructions issued by the COMMISSION Safety Officer and other COMMISSION representatives."
+  },
+  {
+    "id": "Obligation:1d2a4a54c79e",
+    "type": "Obligation",
+    "text": "CONSULTANT personnel shall wear hard hats and safety vests at all times while working on the Santa Cruz Branch Rail Line."
+  },
+  {
+    "id": "Obligation:6673864a5a73",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall comply with all of the requirements set forth in Divisions 11, 12, 13, 14, and 15 of the Vehicle Code."
+  },
+  {
+    "id": "Obligation:570f8b8d2c15",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall take all reasonably necessary precautions for safe operation of its vehicles and the protection of the traveling public from injury and damage from such vehicles."
+  },
+  {
+    "id": "Obligation:208c51a7e4ba",
+    "type": "Obligation",
+    "text": "Any subcontract entered into as a result of this contract, shall contain all of the provisions of this Section."
+  },
+  {
+    "id": "Amount:99210ea8f37f",
+    "type": "Amount",
+    "value": 16.0,
+    "currency": null,
+    "unit": null,
+    "raw": "16"
+  },
+  {
+    "id": "Amount:2282a526e6e8",
+    "type": "Amount",
+    "value": 12.0,
+    "currency": null,
+    "unit": null,
+    "raw": "12"
+  },
+  {
+    "id": "Clause:a6fcd2ade142",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c12",
+    "heading": "17. MODIFICATION OF AGREEMENT.",
+    "page": 8,
+    "line_start": 1,
+    "line_end": 9
+  },
+  {
+    "id": "Party:fa804612223d",
+    "type": "Party",
+    "name": "BOARD"
+  },
+  {
+    "id": "Party:3a9b4a650e7a",
+    "type": "Party",
+    "name": "DISPUTES"
+  },
+  {
+    "id": "Party:d0dac120871e",
+    "type": "Party",
+    "name": "GOVERNING"
+  },
+  {
+    "id": "Party:d57fe74ae368",
+    "type": "Party",
+    "name": "MODIFICATION"
+  },
+  {
+    "id": "Obligation:9be91fbf180e",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall only commence work covered by an amendment after the amendment is executed and notification to proceed has been provided by the COMMISSION's Contract Manager."
+  },
+  {
+    "id": "Obligation:628b8506b9b4",
+    "type": "Obligation",
+    "text": "There shall be no change in the CONSULTANT's Project Manager or members of the project team, as listed in the approved Fee Schedule, which is a part of this Agreement without prior written approval by the COMMISSION's Contract Manager."
+  },
+  {
+    "id": "Obligation:be4c28467b0d",
+    "type": "Obligation",
+    "text": "No oral understanding or agreement not incorporated herein shall be binding on the parties."
+  },
+  {
+    "id": "Obligation:a9cca2b5f8c3",
+    "type": "Obligation",
+    "text": "This Agreement shall be construed under the laws of the State of California."
+  },
+  {
+    "id": "Obligation:44235b011888",
+    "type": "Obligation",
+    "text": "Pending final resolution of a dispute hereunder, CONSULTANT shall proceed diligently with the performance of this Agreement and shall comply with COMMISSION's instructions."
+  },
+  {
+    "id": "Obligation:c5288243c8ad",
+    "type": "Obligation",
+    "text": "Any dispute, other than audit, concerning a question of fact arising under this Agreement that is not disposed of by agreement shall be decided by a committee consisting of the COMMISSION's Contract Manager and Executive Director, who shall consider written or verbal information submitted by the CONSULTANT."
+  },
+  {
+    "id": "Obligation:d0f622cbe54a",
+    "type": "Obligation",
+    "text": "The request for review must be submitted in writing."
+  },
+  {
+    "id": "Obligation:a938d626d0d0",
+    "type": "Obligation",
+    "text": "Neither the pendency of a dispute, nor its consideration by the committee will excuse the CONSULTANT from full and timely performance in accordance with the terms of this contract."
+  },
+  {
+    "id": "Amount:e050ad07f33c",
+    "type": "Amount",
+    "value": 17.0,
+    "currency": null,
+    "unit": null,
+    "raw": "17"
+  },
+  {
+    "id": "Clause:ea2897e6f762",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c13",
+    "heading": "19. AUDIT REVIEW PROCEDURES",
+    "page": 8,
+    "line_start": 1,
+    "line_end": 4
+  },
+  {
+    "id": "Party:a162295df0c7",
+    "type": "Party",
+    "name": "PROCEDURES"
+  },
+  {
+    "id": "Party:699af81bd43a",
+    "type": "Party",
+    "name": "REVIEW"
+  },
+  {
+    "id": "Obligation:e5364ee10850",
+    "type": "Obligation",
+    "text": "Any dispute concerning a question of fact arising under an interim or post-completion audit of this Agreement that is not disposed of by agreement, shall be reviewed by the COMMISSION'S Contract Manager."
+  },
+  {
+    "id": "Obligation:cac73cfe685e",
+    "type": "Obligation",
+    "text": "The request for review will be submitted in writing."
+  },
+  {
+    "id": "Obligation:5d0e1ab38f60",
+    "type": "Obligation",
+    "text": "Neither the pendency of a dispute nor its consideration by the COMMISSION will excuse the CONSULTANT from full and timely performance, in accordance with the terms of this contract."
+  },
+  {
+    "id": "Amount:17beaf8e56a8",
+    "type": "Amount",
+    "value": 19.0,
+    "currency": null,
+    "unit": null,
+    "raw": "19"
+  },
+  {
+    "id": "Clause:fa76a9d0851b",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c14",
+    "heading": "20. SUBCONTRACTING",
+    "page": 8,
+    "line_start": 1,
+    "line_end": 8
+  },
+  {
+    "id": "Party:823260bfba3d",
+    "type": "Party",
+    "name": "CONSIDERATION"
+  },
+  {
+    "id": "Party:eff718933192",
+    "type": "Party",
+    "name": "KICKBACKS"
+  },
+  {
+    "id": "Party:8e9c5a423b62",
+    "type": "Party",
+    "name": "NONASSIGNMENT"
+  },
+  {
+    "id": "Party:416b010743df",
+    "type": "Party",
+    "name": "NOTIFICATION"
+  },
+  {
+    "id": "Party:7a131dfb8179",
+    "type": "Party",
+    "name": "OTHER"
+  },
+  {
+    "id": "Party:c7d43924c046",
+    "type": "Party",
+    "name": "REBATES"
+  },
+  {
+    "id": "Party:d113496bc28f",
+    "type": "Party",
+    "name": "SUBCONTRACTING"
+  },
+  {
+    "id": "Party:ae4cbe484c0b",
+    "type": "Party",
+    "name": "UNLAWFUL"
+  },
+  {
+    "id": "Obligation:b881605e0c00",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall perform the work contemplated with resources available within its own organization; and no portion of the work pertinent to this Agreement shall be subcontracted without prior written authorization by the COMMISSION'S Contract Manager, except that, which is expressly identified in the approved Fee Schedule."
+  },
+  {
+    "id": "Obligation:eb7c29b3d4a3",
+    "type": "Obligation",
+    "text": "Any subcontract in excess of $25,000 entered into as a result of this contract, shall contain all the provisions required by this Agreement to be applicable to those subconsultants."
+  },
+  {
+    "id": "Obligation:3886e8be576b",
+    "type": "Obligation",
+    "text": "No substitution of subconsultants shall be valid until approved in writing by the COMMISSION's Contract Manager."
+  },
+  {
+    "id": "Obligation:dab003553a5c",
+    "type": "Obligation",
+    "text": "The CONSULTANT shall not assign the Agreement without the prior written consent of the COMMISSION."
+  },
+  {
+    "id": "Obligation:4ef8ea667eb4",
+    "type": "Obligation",
+    "text": "For breach or violation of this warranty, COMMISSION shall have the right in its discretion to terminate the Agreement without liability; to pay only for the value of the work actually performed; or to deduct from the contract price; or otherwise recover the full amount of such rebate, kickback or other unlawful consideration."
+  },
+  {
+    "id": "Obligation:b3c78eb3fa64",
+    "type": "Obligation",
+    "text": "All notices hereunder and communications regarding interpretation of the terms of this Agreement and changes thereto, shall be effected by the mailing thereof by registered or certified mail, return receipt requested, postage prepaid, and addressed as follows: CONSULTANT:"
+  },
+  {
+    "id": "Amount:3a60d68faf46",
+    "type": "Amount",
+    "value": 21.0,
+    "currency": null,
+    "unit": null,
+    "raw": "21"
+  },
+  {
+    "id": "Amount:3dbd475d33ba",
+    "type": "Amount",
+    "value": 22.0,
+    "currency": null,
+    "unit": null,
+    "raw": "22"
+  },
+  {
+    "id": "Amount:832dc580de01",
+    "type": "Amount",
+    "value": 23.0,
+    "currency": null,
+    "unit": null,
+    "raw": "23"
+  },
+  {
+    "id": "Clause:695945abf55a",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c15",
+    "heading": "(CONSULTANT)",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 3
+  },
+  {
+    "id": "Clause:bcf2e3bb871c",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c16",
+    "heading": "(NAME)",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 3
+  },
+  {
+    "id": "Party:27b6121e2868",
+    "type": "Party",
+    "name": "NAME"
+  },
+  {
+    "id": "Clause:54a1c1d99f74",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c17",
+    "heading": "(ADDRESS)",
+    "page": 9,
+    "line_start": 31,
+    "line_end": 32
+  },
+  {
+    "id": "Party:b29377bdea32",
+    "type": "Party",
+    "name": "ADDRESS"
+  },
+  {
+    "id": "Clause:dad41f49641a",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c18",
+    "heading": "COMMISSION:",
+    "page": 9,
+    "line_start": 27,
+    "line_end": 28
+  },
+  {
+    "id": "Clause:d163a1fa5787",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c19",
+    "heading": "24. COMPLETE AGREEMENT",
+    "page": 9,
+    "line_start": 1,
+    "line_end": 9
+  },
+  {
+    "id": "Party:d17bdc445b91",
+    "type": "Party",
+    "name": "ATTACHMENTS"
+  },
+  {
+    "id": "Party:6d1d5b80dd77",
+    "type": "Party",
+    "name": "COMPLETE"
+  },
+  {
+    "id": "Party:f519b964d911",
+    "type": "Party",
+    "name": "DESIGNEE"
+  },
+  {
+    "id": "Party:204416cec52c",
+    "type": "Party",
+    "name": "INCLUDING"
+  },
+  {
+    "id": "Party:a136dd77a4e6",
+    "type": "Party",
+    "name": "WHEREOF"
+  },
+  {
+    "id": "Party:18db1d6cea01",
+    "type": "Party",
+    "name": "WITNESS"
+  },
+  {
+    "id": "Obligation:993ff4859a4a",
+    "type": "Obligation",
+    "text": "COMMISSION DESIGNEE: The Executive Director of COMMISSION, or his or her designee, shall have the authority to act for and exercise any of the rights of COMMISSION as set forth in this Agreement subsequent to, and in accordance with the authorization granted by the COMMISSION."
+  },
+  {
+    "id": "Obligation:19d810a48117",
+    "type": "Obligation",
+    "text": "The invalidity in whole or in part of any term or condition of this Agreement shall not affect the validity of other terms or conditions."
+  },
+  {
+    "id": "Obligation:6e77125449a6",
+    "type": "Obligation",
+    "text": "The COMMISSION's waiver of CONSULTANT's performance of any term(s) or condition(s) of this Agreement shall not be construed as a waiver for any future performance of such term(s) or conditions(s"
+  },
+  {
+    "id": "Amount:8f87218954e7",
+    "type": "Amount",
+    "value": 24.0,
+    "currency": null,
+    "unit": null,
+    "raw": "24"
+  },
+  {
+    "id": "Clause:8d7d4140e9bd",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c20",
+    "heading": "1.  CONSULTANT",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 1
+  },
+  {
+    "id": "Clause:f629307035b8",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c21",
+    "heading": "2.  SANTA CRUZ COUNTY REGIONAL TRANSPORTATION COMMISSION",
+    "page": 1,
+    "line_start": 1,
+    "line_end": 4
+  },
+  {
+    "id": "Clause:09f3e65595a6",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c22",
+    "heading": "SIGNED",
+    "page": 10,
+    "line_start": 16,
+    "line_end": 16
+  },
+  {
+    "id": "Party:3822957fc292",
+    "type": "Party",
+    "name": "SIGNED"
+  },
+  {
+    "id": "Clause:afbfb40d6648",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c23",
+    "heading": "SIGNED",
+    "page": 10,
+    "line_start": 16,
+    "line_end": 18
+  },
+  {
+    "id": "Clause:61500080e2c8",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c24",
+    "heading": "PRINTED",
+    "page": 10,
+    "line_start": 18,
+    "line_end": 18
+  },
+  {
+    "id": "Party:dbd7102215a8",
+    "type": "Party",
+    "name": "PRINTED"
+  },
+  {
+    "id": "Clause:90da318bef23",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c25",
+    "heading": "PRINTED",
+    "page": 10,
+    "line_start": 18,
+    "line_end": 23
+  },
+  {
+    "id": "Party:8c534b65f841",
+    "type": "Party",
+    "name": "Company"
+  },
+  {
+    "id": "Clause:435551f9af42",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c26",
+    "heading": "3. APPROVED AS TO INSURANCE:",
+    "page": 10,
+    "line_start": 33,
+    "line_end": 33
+  },
+  {
+    "id": "Party:0ed32433242e",
+    "type": "Party",
+    "name": "APPROVED"
+  },
+  {
+    "id": "Clause:a01116c43359",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c27",
+    "heading": "4. APPROVED AS TO FORM:",
+    "page": 10,
+    "line_start": 35,
+    "line_end": 39
+  },
+  {
+    "id": "Party:701e05a832de",
+    "type": "Party",
+    "name": "FORM"
+  },
+  {
+    "id": "Clause:cc3dc93a1349",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c28",
+    "heading": "DISTRIBUTION:",
+    "page": 10,
+    "line_start": 43,
+    "line_end": 44
+  },
+  {
+    "id": "Party:dfa441635d6d",
+    "type": "Party",
+    "name": "DISTRIBUTION"
+  },
+  {
+    "id": "Clause:449afd8d7591",
+    "type": "Clause",
+    "contract_id": "contract.pdf",
+    "clause_id": "c29",
+    "heading": "-  CONSULTANT",
+    "page": 10,
+    "line_start": 1,
+    "line_end": 2
+  },
+  {
+    "id": "Party:04c7faa21070",
+    "type": "Party",
+    "name": "CONTRACT"
+  },
+  {
+    "id": "Party:93ffeff8db03",
+    "type": "Party",
+    "name": "MASTERCO"
+  }
+]

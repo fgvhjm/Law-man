@@ -1,0 +1,198 @@
+[
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c6",
+    "heading": "4. EARLY TERMINATION",
+    "text_snippet": "4. EARLY TERMINATION\n.\n- A. COMMISSION may terminate this Agreement for its convenience any time, in whole or part, by giving CONSULTANT thirty-day (30-day) written notice thereof.  Within thirty days of the COMMISSION's receipt of CONSULTANT's final billing, COMMISSION shall pay CONSULTANT its allowable costs incurred to date of termination and those allowable costs determined by COMMISSION to be",
+    "page": 2,
+    "line_range": [
+      1,
+      6
+    ],
+    "lang": "en",
+    "score": 2.7302215,
+    "highlight": [
+      "<em>EARLY</em> <em>TERMINATION</em>\n.\n- A.",
+      "Within thirty days of the COMMISSION's receipt of CONSULTANT's final billing, COMMISSION shall pay CONSULTANT its allowable costs incurred to date of <em>termination</em>",
+      "and those allowable costs determined by COMMISSION to be reasonably necessary to effect such <em>termination</em>."
+    ],
+    "norm_score": 1.0,
+    "bm25_score": 1.0,
+    "vec_score": 1.0,
+    "hybrid_score": 1.0,
+    "reranker_score": 4.840366363525391
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c24",
+    "heading": "PRINTED",
+    "text_snippet": "PRINTED",
+    "page": 10,
+    "line_range": [
+      18,
+      18
+    ],
+    "lang": "en",
+    "score": 0.4677463,
+    "highlight": [],
+    "norm_score": 0.4839670349847354,
+    "bm25_score": 0.0,
+    "vec_score": 0.4839670349847354,
+    "hybrid_score": 0.19358681399389419,
+    "reranker_score": 0.341758131980896
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c22",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED",
+    "page": 10,
+    "line_range": [
+      16,
+      16
+    ],
+    "lang": "en",
+    "score": 0.44312328,
+    "highlight": [],
+    "norm_score": 0.357042406492713,
+    "bm25_score": 0.0,
+    "vec_score": 0.357042406492713,
+    "hybrid_score": 0.1428169625970852,
+    "reranker_score": -1.55037260055542
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c9",
+    "heading": "B. Other Insurance Provisions",
+    "text_snippet": "B. Other Insurance Provisions\n- 1) If any insurance coverage required in this Agreement is provided on a 'Claims Made' rather than 'Occurrence' form, CONSULTANT agrees to maintain the required coverage for a period of three (3) years after the expiration of this Agreement (hereinafter 'post agreement coverage') and any extensions thereof.  CONSULTANT may maintain the required post agreement covera",
+    "page": 4,
+    "line_range": [
+      1,
+      29
+    ],
+    "lang": "en",
+    "score": 0.38579065,
+    "highlight": [
+      "Such action shall include, but not be limited to, the following: recruitment; advertising, layoff or <em>termination</em>; rates of pay or other forms of compensation"
+    ],
+    "norm_score": 0.0,
+    "bm25_score": 0.0,
+    "vec_score": 0.061509089977493596,
+    "hybrid_score": 0.02460363599099744,
+    "reranker_score": -6.6530656814575195
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c17",
+    "heading": "(ADDRESS)",
+    "text_snippet": "(ADDRESS)\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 9,
+    "line_range": [
+      31,
+      32
+    ],
+    "lang": "en",
+    "score": 0.3767559,
+    "highlight": [],
+    "norm_score": 0.014937536720894526,
+    "bm25_score": 0.0,
+    "vec_score": 0.014937536720894526,
+    "hybrid_score": 0.005975014688357811,
+    "reranker_score": -7.608977317810059
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c26",
+    "heading": "3. APPROVED AS TO INSURANCE:",
+    "text_snippet": "3. APPROVED AS TO INSURANCE:",
+    "page": 10,
+    "line_range": [
+      33,
+      33
+    ],
+    "lang": "en",
+    "score": 0.40792936,
+    "highlight": [],
+    "norm_score": 0.1756278106722996,
+    "bm25_score": 0.0,
+    "vec_score": 0.1756278106722996,
+    "hybrid_score": 0.07025112426891984,
+    "reranker_score": -7.729963302612305
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c12",
+    "heading": "17. MODIFICATION OF AGREEMENT.",
+    "text_snippet": "17. MODIFICATION OF AGREEMENT.\n- A. This Agreement may be amended or modified only by mutual written agreement of the parties.\n- B. The CONSULTANT shall only commence work covered by an amendment after the amendment is executed and notification to proceed has been provided by the COMMISSION's Contract Manager.\n- C. There shall be no change in the CONSULTANT's Project Manager or members of the proj",
+    "page": 8,
+    "line_range": [
+      1,
+      9
+    ],
+    "lang": "en",
+    "score": 0.38720113,
+    "highlight": [],
+    "norm_score": 0.06877971112775975,
+    "bm25_score": 0.0,
+    "vec_score": 0.06877971112775975,
+    "hybrid_score": 0.027511884451103905,
+    "reranker_score": -7.907855987548828
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c20",
+    "heading": "1.  CONSULTANT",
+    "text_snippet": "1.  CONSULTANT",
+    "page": 1,
+    "line_range": [
+      1,
+      1
+    ],
+    "lang": "en",
+    "score": 0.4724911,
+    "highlight": [],
+    "norm_score": 0.5084251224682751,
+    "bm25_score": 0.0,
+    "vec_score": 0.5084251224682751,
+    "hybrid_score": 0.20337004898731004,
+    "reranker_score": -8.061328887939453
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c23",
+    "heading": "SIGNED",
+    "text_snippet": "SIGNED\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 10,
+    "line_range": [
+      16,
+      18
+    ],
+    "lang": "en",
+    "score": 0.44031224,
+    "highlight": [],
+    "norm_score": 0.3425522989560984,
+    "bm25_score": 0.0,
+    "vec_score": 0.3425522989560984,
+    "hybrid_score": 0.13702091958243937,
+    "reranker_score": -8.155195236206055
+  },
+  {
+    "contract_id": "contract.pdf",
+    "clause_id": "c15",
+    "heading": "(CONSULTANT)",
+    "text_snippet": "(CONSULTANT)\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_",
+    "page": 1,
+    "line_range": [
+      1,
+      3
+    ],
+    "lang": "en",
+    "score": 0.42076838,
+    "highlight": [],
+    "norm_score": 0.241809288155632,
+    "bm25_score": 0.0,
+    "vec_score": 0.241809288155632,
+    "hybrid_score": 0.0967237152622528,
+    "reranker_score": -8.183502197265625
+  }
+]

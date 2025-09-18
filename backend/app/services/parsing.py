@@ -4,8 +4,11 @@ PDF → Docling → Clauses → Page + Line Anchors → JSON Records
 """
 
 # ---------- Imports ----------
-import io, re, pathlib
-from typing import List, Dict
+import argparse
+import io
+import pathlib
+import re
+from typing import Dict, List
 
 # Docling
 from docling.datamodel.base_models import InputFormat
@@ -161,27 +164,53 @@ def to_records(clauses_basic, filename: str, pages_text: List[str] | None):
 
 # ---------- Main Runner ----------
 if __name__ == "__main__":
-    pdf_path = "/Users/amitprasadsingh/Desktop/Lawman/contract.pdf"
-    filename = pathlib.Path(pdf_path).name
+    here = pathlib.Path(__file__).resolve().parent
+    repo_root = here.parent.parent.parent
+    default_pdf = repo_root / "contract.pdf"
+    default_output = here / "contract_parsed.json"
+
+    parser = argparse.ArgumentParser(description="Parse a contract PDF into clause JSON")
+    parser.add_argument(
+        "--pdf",
+        dest="pdf_path",
+        default=str(default_pdf),
+        help=f"Path to the contract PDF (default: {default_pdf})",
+    )
+    parser.add_argument(
+        "--out",
+        dest="output_json",
+        default=str(default_output),
+        help=f"Destination for the clause JSON (default: {default_output})",
+    )
+    args = parser.parse_args()
+
+    pdf_path = pathlib.Path(args.pdf_path).expanduser().resolve()
+    if not pdf_path.exists():
+        raise SystemExit(f"PDF not found at {pdf_path}")
+
+    output_path = pathlib.Path(args.output_json).expanduser().resolve()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    filename = pdf_path.name
 
     # Step 1: Docling Markdown
-    md = run_docling(pdf_path)
+    md = run_docling(str(pdf_path))
 
     # Step 2: Split into clauses
     clauses_basic = split_into_clauses(md)
 
     # Step 3: Extract page texts
-    pages_text = extract_page_texts(pdf_path)
+    pages_text = extract_page_texts(str(pdf_path))
 
     # Step 4 + 5: Build records
     records = to_records(clauses_basic, filename, pages_text)
 
     # Preview
-    # Preview
     import json
+
     print(json.dumps(records[:5], indent=2))
-    # Save to JSON file
-    with open("contract_parsed.json", "w", encoding="utf-8") as f:
+
+    with output_path.open("w", encoding="utf-8") as f:
         json.dump(records, f, indent=2)
 
-    print(f"Saved {len(records)} clauses to contract_parsed.json")
+    print(f"Saved {len(records)} clauses to {output_path}")
