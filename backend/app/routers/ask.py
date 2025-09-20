@@ -7,6 +7,7 @@ from fastapi import APIRouter, HTTPException
 from ..schemas import ClauseHit, HybridSearchRequest, HybridSearchResponse
 from ..services.hybrid_search import hybrid_search as run_hybrid_search
 from ..services.reranker import rerank as run_rerank
+from ..services.summarizer import summarize_hits
 
 
 router = APIRouter(prefix="/ask", tags=["ask"])
@@ -31,6 +32,13 @@ def ask(payload: HybridSearchRequest) -> HybridSearchResponse:
         except Exception as exc:  # pragma: no cover
             raise HTTPException(status_code=500, detail=f"Reranking failed: {exc}") from exc
 
+    summary_text = None
+    if payload.summarize:
+        try:
+            summary_text = summarize_hits(payload.query, hits)
+        except Exception as exc:  # pragma: no cover
+            raise HTTPException(status_code=500, detail=f"Summarisation failed: {exc}") from exc
+
     results = [ClauseHit.model_validate(hit) for hit in hits]
 
     return HybridSearchResponse(
@@ -39,4 +47,5 @@ def ask(payload: HybridSearchRequest) -> HybridSearchResponse:
         alpha=payload.alpha,
         reranked=reranked,
         results=results,
+        summary=summary_text,
     )

@@ -42,6 +42,10 @@ class HybridSearchRequest(BaseModel):
         False,
         description="Whether to rerank the hybrid results with the cross-encoder",
     )
+    summarize: bool = Field(
+        False,
+        description="Generate a Gemini summary based on the final (reranked) results",
+    )
 
 
 class ClauseHit(BaseModel):
@@ -72,3 +76,7 @@ class HybridSearchResponse(BaseModel):
     alpha: float
     reranked: bool
     results: List[ClauseHit]
+    summary: Optional[str] = Field(
+        default=None,
+        description="Gemini-generated summary of the retrieved clauses",
+    )
